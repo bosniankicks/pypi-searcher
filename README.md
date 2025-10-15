@@ -1,15 +1,15 @@
-# ⚡ PyPI Search - Blazingly Fast
+# PyPI Search - Blazingly Fast
 
 Ultra-fast PyPI package search tool written in Rust. **No Fastly challenges, no cookies, no JavaScript execution needed!**
 
 ## Features
 
-- 🚀 **Blazingly fast** - Compiled Rust with optimized release builds
-- 🎯 **No challenges** - Uses PyPI JSON API (bypasses all protection)
-- 🎨 **Beautiful output** - Colored terminal output
-- 📦 **Zero overhead** - Direct HTTP/JSON, no browser automation
-- ⚙️ **Multiple output formats** - Human-readable or JSON
-- 🔥 **Benchmark mode** - See exactly how fast it is
+- **Blazingly fast** - Compiled Rust with optimized release builds
+- **No challenges** - Uses PyPI JSON API (bypasses all protection)
+- **Beautiful output** - Colored terminal output
+- **Zero overhead** - Direct HTTP/JSON, no browser automation
+- **Multiple output formats** - Human-readable or JSON
+- **Benchmark mode** - See exactly how fast it is
 
 ## Installation
 
@@ -85,7 +85,7 @@ Total Releases: 142
 Recent Versions: 2.28.0, 2.28.1, 2.28.2, 2.29.0, 2.31.0
 
 ============================================================
-✓ SUCCESS - No challenge required!
+SUCCESS - No challenge required!
 ```
 
 ### Example 2: Benchmark Mode
@@ -99,8 +99,8 @@ Package: flask
 Latest Version: 3.0.0
 ...
 ============================================================
-⚡ Fetched in 85ms
-✓ SUCCESS - No challenge required!
+Fetched in 85ms
+SUCCESS - No challenge required!
 ```
 
 ### Example 3: JSON Output
@@ -154,11 +154,11 @@ https://pypi.org/pypi/{package}/json
 ```
 
 This endpoint:
-- ✅ No challenge pages
-- ✅ No cookies required
-- ✅ No JavaScript execution
-- ✅ No browser needed
-- ✅ Pure HTTP/JSON
+- No challenge pages
+- No cookies required
+- No JavaScript execution
+- No browser needed
+- Pure HTTP/JSON
 
 ## Command-Line Options
 

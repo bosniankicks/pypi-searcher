@@ -3,12 +3,12 @@
 
 set -e
 
-echo "🚀 Installing PyPI Search..."
+echo "Installing PyPI Search..."
 echo ""
 
 # Check if Rust is installed
 if ! command -v cargo &> /dev/null; then
-    echo "❌ Rust/Cargo not found!"
+    echo "ERROR: Rust/Cargo not found!"
     echo ""
     echo "Install Rust first:"
     echo "  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
@@ -29,7 +29,7 @@ fi
 echo "[3/3] Testing installation..."
 if command -v pypi-search &> /dev/null; then
     echo ""
-    echo "✅ SUCCESS! PyPI Search installed!"
+    echo "SUCCESS! PyPI Search installed!"
     echo ""
     echo "Usage:"
     echo "  pypi-search django"
@@ -37,6 +37,6 @@ if command -v pypi-search &> /dev/null; then
     echo "  pypi-search numpy --json"
     echo ""
 else
-    echo "❌ Installation failed"
+    echo "ERROR: Installation failed"
     exit 1
 fi
